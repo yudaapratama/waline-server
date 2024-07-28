@@ -1,0 +1,12 @@
+{
+  "name": "template",
+  "version": "0.0.1",
+  "private": true,
+	"scripts": {
+		"server:dev": "vercel dev"
+	},
+  "dependencies": {
+    "@waline/vercel": "latest",
+		"vercel": "34.3.1"
+  }
+}
