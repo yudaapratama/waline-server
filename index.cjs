@@ -5,7 +5,7 @@ const CustomModel = require('./CustomModel.cjs');
 module.exports = Application({
 	env: 'development',
 	model: (tableName) => {
-		return new CustomModel(tableName)
+		return this.service(`storage/mysql`, tableName)
 	},
   plugins: [],
   async postSave(comment) {
