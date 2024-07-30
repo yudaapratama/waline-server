@@ -11,6 +11,12 @@ importers:
       '@waline/vercel':
         specifier: latest
         version: 1.32.0(chokidar@3.3.1)(encoding@0.1.13)
+      dotenv:
+        specifier: 16.4.5
+        version: 16.4.5
+      thinkjs:
+        specifier: ^3.2.15
+        version: 3.2.15
       vercel:
         specifier: 34.3.1
         version: 34.3.1(encoding@0.1.13)
@@ -769,6 +775,10 @@ packages:
 
   dompurify@3.1.6:
     resolution: {integrity: sha512-cTOAhc36AalkjtBpfG6O8JimdTMWNXjiePT2xQH/ppBGi/4uIpmj8eKyIkMJErXWARyINV/sB38yf8JCLF5pbQ==}
+
+  dotenv@16.4.5:
+    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
+    engines: {node: '>=12'}
 
   dy-node-ip2region@1.0.1:
     resolution: {integrity: sha512-umCgWXhY3TfZF1vVB8pKacqKV2F9TIlUH9kazxVnBm6sAz+gCWIy40ccWhHM9/HKyTo0IbDMdJ7fyUNs0BsoRA==}
@@ -3698,6 +3708,8 @@ snapshots:
   diff@4.0.2: {}
 
   dompurify@3.1.6: {}
+
+  dotenv@16.4.5: {}
 
   dy-node-ip2region@1.0.1: {}
 
