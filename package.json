@@ -2,14 +2,7 @@
   "name": "template",
   "version": "0.0.1",
   "private": true,
-	"scripts": {
-		"server:dev": "vercel dev --listen 9090",
-		"dev": "node vanilla.js"
-	},
   "dependencies": {
-    "@waline/vercel": "latest",
-		"dotenv": "16.4.5",
-		"thinkjs": "^3.2.15",
-		"vercel": "34.3.1"
+    "@waline/vercel": "latest"
   }
 }
